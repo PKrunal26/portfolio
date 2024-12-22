@@ -30,7 +30,7 @@
 
 }
 
-html{
+html, body{
     margin: 0;
 }
 
@@ -55,7 +55,7 @@ html{
 }
 
 .scrollable {
-    max-width: 1440px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -278,7 +278,7 @@ a {
 }
 
 .footer-content > div {
-    max-width: 1440px;
+    max-width: 1080px;
 }
 
 .contact{

@@ -3,7 +3,7 @@ export default
     hero_image: "images/design_system/design_system_hero.png",
     title: "Creating a Design System built for Scalability.",
     description: "When I joined Tessell, I had the responsibility of creating our design system helped us moved faster together. When I started, I found out there existed a figma file called “Brand Book” which was lacking crucial component styles minimal, was seldom used, heavily under-documented and failed to translate into the front-end system. By the time I was done with the project, I had established principles and values for design system, a through component library, documentation and a practice of critique and governance on the design side to evolve the system, and had kick-started the process on the engineering side to make the design system a shared priority between design and engineering.",
-    intro_items:[
+    intro_text:[
         {
             type:"heading",
             text:"Impact"
@@ -13,7 +13,7 @@ export default
             text: "We immediately saw an increase in cohesion and decrease in rogue components, and a faster pace of iterative and early design work. The governance process I established created more opportunities for designers to work together, getting early visibility into how the system was emerging across the product. Currently we are hiring a dedicated front engineer to pull the visual system into code."
         }
     ],
-    info_items:[
+    intro_items:[
         {
             name: "Role",
             value: "Product Designer"
@@ -51,7 +51,7 @@ export default
                 },
                 {
                     type:"image",
-                    src:"images/design-system/design_system_buttons.png",
+                    src:"images/design_system/design_system_buttons.png",
                 }
             ]
         },
@@ -104,7 +104,7 @@ export default
                 },
                 {
                     type: "image",
-                    src: "images/design-system/design_system_buttons.png",
+                    src: "images/design_system/design_system_buttons.png",
                 },
                 {
                     type: "paragraph",
@@ -116,7 +116,8 @@ export default
                 }
             ]
         }
-    ]
+    ],
+    next_project_id: 2
 }
 
 // https://www.figma.com/design/iGSfi021hVrbofHQfA3dHT/Portfolio?node-id=2144-30527&t=tviid6UjdHTAPhQq-4
