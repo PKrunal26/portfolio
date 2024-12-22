@@ -10,7 +10,7 @@ export default
         },
         {
             type: "paragraph",
-            text: "We immediately saw an increase in cohesion and decrease in rogue components, and a faster pace of iterative and early design work. The governance process I established created more opportunities for designers to work together, getting early visibility into how the system was emerging across the product. Currently we are hiring a dedicated front engineer to pull the visual system into code."
+            text: "We immediately saw an <b>increase in cohesion and decrease in rogue components</b>, and a faster pace of iterative and early design work. The governance process I established created more opportunities for designers to work together, getting early visibility into how the system was emerging across the product. Currently we are hiring a dedicated front engineer to pull the visual system into code."
         }
     ],
     intro_items:[
