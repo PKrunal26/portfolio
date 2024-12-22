@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Krunal Prajapati</title>
+    <link rel="icon" type="image/x-icon" href="/images/website_logo.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+<div class="main newsreader-regular">
+    <div class="scrollable">
+        <div class="header">
+            <div class="header-content-left">
+                <div class="header-content-left-title">Hi, I’m Krunal Prajapati.</div>
+                <div class="header-content-left-subtitle">Product Designer @ Tessell, previously @ Atlassian</div>
+            </div>
+            <div class="header-content-right instrument-sans-regular">
+                <div class="header-content-right-menu">
+                    <a href="#shipped-work">Shipped Work</a>
+                    <a href="#beyond-work">Beyond Work</a>
+                    <a href="#testimonials">Testimonials</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="shipped-work" id="shipped-work">
+            <div class="section-title">Shipped Work</div>
+            <div class="line"></div>
+            <div class="shipped-work-content">
+                <% work.forEach(function(item) { %>
+                    <div class="work-item">
+                        <div class="work-item-left instrument-sans-regular">
+                            <div class="work-item-left-logo">
+                                <img class="work-item-logo-image" src="<%= item.logo %>" alt="logo" />
+                            </div>
+                            <div class="work-item-subtitle">
+                                <%= item.subtitle %>
+                            </div>
+                            <div class="work-item-title">
+                                <%= item.title %>
+                            </div>
+                            <div class="work-item-desc">
+                                <%= item.description %>
+                            </div>
+                            <div class="work-item-tags">
+                                <% item.tags.forEach(function(tag) { %>
+                                    <div class="tag"><%= tag %></div>
+                                <% }); %>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+
+        <div class="beyond-work" id="beyond-work">
+            <div class="section-title">Beyond Work</div>
+            <div class="line"></div>
+            <div class="beyond-work-content instrument-sans-regular">
+                <% beyond.forEach(function(item) { %>
+                    <div class="beyond-item">
+                        <img class="beyond-item-image" src="<%= item.image_foreground %>" alt="logo" />
+                        <div class="work-item-title"><%= item.title %></div>
+                        <div class="work-item-desc"><%= item.description %></div>
+                        <div class="work-item-tags">
+                            <% item.tags.forEach(function(tag) { %>
+                                <div class="tag"><%= tag %></div>
+                            <% }); %>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+
+        <div class="testimonials" id="testimonials">
+            <div class="section-title">Testimonials</div>
+            <div class="line"></div>
+            <div class="testimonials-content">
+                <% testimonials.forEach(function(item) { %>
+                    <div class="testimonial">
+                        <div class="testimonial-left">
+                            <img src="<%= item.small_image %>" alt="testimonial" class="testimonial-image">
+                            <div class="testimonial-title"><%= item.title %></div>
+                            <div class="testimonial-subtitle"><%= item.subtitle %></div>
+                        </div>
+                        <div class="testimonial-right">
+                            <% item.text.forEach(function(para) { %>
+                                <div class="testimonial-para"><%= para.text %></div>
+                            <% }); %>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="contact footer-content">
+    <div class="contact-wrapper">
+        <div class="footer-content-left">
+            <div class="footer-content-title">Contact Me</div>
+        </div>
+        <div class="footer-content-right instrument-sans-regular">
+            <div class="footer-content-right-menu">
+                <a href="https://drive.google.com/file/d/15-bTJhYYc6J9FXKtLq1aEghXDM9GDs9k/view" target="_blank">Resume</a>
+                <a href="https://www.linkedin.com/in/krunalprajapati26/" target="_blank">LinkedIn</a>
+                <a href="mailto:26.krunal@gmail.com" target="_blank">Email</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="ejs.js"></script>
+<script src="index.js" type="module"></script>
+</body>
+
+</html>
