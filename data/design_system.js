@@ -1,6 +1,6 @@
 export default
 {
-    hero_image: "/images/design_system/design_system_hero.png",
+    hero_image: "images/design_system/design_system_hero.png",
     title: "Creating a Design System built for Scalability.",
     description: "When I joined Tessell, I had the responsibility of creating our design system helped us moved faster together. When I started, I found out there existed a figma file called “Brand Book” which was lacking crucial component styles minimal, was seldom used, heavily under-documented and failed to translate into the front-end system. By the time I was done with the project, I had established principles and values for design system, a through component library, documentation and a practice of critique and governance on the design side to evolve the system, and had kick-started the process on the engineering side to make the design system a shared priority between design and engineering.",
     intro_items:[
@@ -51,7 +51,7 @@ export default
                 },
                 {
                     type:"image",
-                    src:"/images/design-system/design_system_buttons.png",
+                    src:"images/design-system/design_system_buttons.png",
                 }
             ]
         },
@@ -104,7 +104,7 @@ export default
                 },
                 {
                     type: "image",
-                    src: "/images/design-system/design_system_buttons.png",
+                    src: "images/design-system/design_system_buttons.png",
                 },
                 {
                     type: "paragraph",

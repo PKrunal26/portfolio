@@ -1,6 +1,6 @@
 export default [
     {
-        small_image: "/images/krunal_small.png",
+        small_image: "images/krunal_small.png",
         title: "Atharva Tagalapallewar",
         subtitle: "Product Designer",
         text: [
@@ -15,7 +15,7 @@ export default [
         ]
     },
     {
-        small_image: "/images/krunal_small.png",
+        small_image: "images/krunal_small.png",
         title: "Atharva Tagalapallewar",
         subtitle: "Product Designer",
         text: [
@@ -30,7 +30,7 @@ export default [
         ]
     },
     {
-        small_image: "/images/krunal_small.png",
+        small_image: "images/krunal_small.png",
         title: "Atharva Tagalapallewar",
         subtitle: "Product Designer",
         text: [
