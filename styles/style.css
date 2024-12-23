@@ -163,9 +163,9 @@ a {
     flex-grow: 1;
     display: flex;
     align-items: center;
-    background-image: url("/images/dch_bg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+    /*background-image: url("/images/dch_bg.png");*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
     max-width: 744px;
 }
 
@@ -325,6 +325,7 @@ a:hover {
 
     .work-item-left {
         margin-right: 0;
+        min-width: 0;
     }
 
 }
@@ -426,4 +427,16 @@ a:hover {
     }
 }
 
+@media(max-width: 320px) {
+    .footer-content-right-menu{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media(max-width: 250px) {
+    body{
+        display: none;
+    }
+}
 /* https://www.figma.com/design/iGSfi021hVrbofHQfA3dHT/Portfolio?node-id=2145-5542&t=N7mR6gTUYb5G27QP-4 */

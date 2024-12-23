@@ -153,22 +153,126 @@
     display: flex;
     justify-content: space-between;
     font-family: "Instrument Sans", sans-serif;
+    gap: 4rem;
 }
 
-.next-project-image {
-    margin-right: 4rem;
-
-    background-image: url("/images/dch_bg.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 744px;
-    height: 391px;
-    min-width: 744px;
-    min-height: 391px;
+.next-project-left {
+    /*background-image: url("/images/dch_bg.png");*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*width: 744px;*/
+    /*height: 391px;*/
+    /*min-width: 744px;*/
+    /*min-height: 391px;*/
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    max-width: 744px;
 }
 
+.next-project-right {
+    flex-grow: 1;
+    min-width: 14rem;
+}
 
 .next-project{
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+@media (max-width: 1000px) {
+    .next-project-content {
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .next-project-right {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --margin-lr: 4rem;
+    }
+
+    .main {
+        margin: 4rem var(--margin-lr) 0 var(--margin-lr);
+    }
+
+    .intro_title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .intro_desc{
+        margin-bottom: 2rem;
+    }
+
+    .intro_desc, .intro_subtitle, .intro_item_value{
+        font-size: 1.125rem;
+    }
+
+    .intro_items{
+        margin: 2rem 0;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+
+    /*.intro_item{*/
+    /*    flex-grow: 0;*/
+    /*}*/
+
+    .work_section {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .work_subtitle{
+        font-size: 1rem;
+    }
+
+    .work_title{
+        font-size: 2rem;
+    }
+
+    .work_highlight, .work_highlight_title, .work_para{
+        font-size: 1rem;
+    }
+
+    .work_highlight{
+        margin: 0.5rem 0;
+    }
+
+    .next-project-left {
+        width: 100%;
+    }
+
+    .next-project-right {
+        min-width: 0;
+    }
+
+    .work_image{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 0;
+        margin: 0.5rem 0;
+    }
+
+    .footer-header{
+        margin-bottom: 2rem;
+    }
+
+    .contact{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media(max-width: 500px) {
+    :root{
+        --margin-lr: 2.5rem;
+    }
 }

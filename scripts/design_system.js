@@ -65,7 +65,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const nextProjectContainer = document.getElementById('next-project-container');
     if (nextProject) {
         nextProjectContainer.innerHTML = `
-            <img class="next-project-image" src="${nextProject.image_background}" alt="Next Project Image" />
+            <div class="next-project-left">
+                <img class="work-item-right-image" src="${nextProject.image_background}" alt="Next Project Image"/>
+            </div>
+<!--            <img class="next-project-image" src="${nextProject.image_background}" alt="Next Project Image" />-->
             <div class="next-project-right">
                 <div class="work-item-logo">
                     <img class="work-item-logo-image" src="${nextProject.logo}" alt="Next Project Logo" />
