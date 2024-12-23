@@ -10,8 +10,8 @@ export default
         "Enterprise",
         "Governance"
     ],
-    "image_foreground": "images/Design_Sys_thumb.png",
-    "image_background": "images/Design_Sys_thumb.png",
+    "image_foreground": "images/design_system.png",
+    // "image_background": "images/Design_Sys_thumb.png",
     "href": "/design_system.html"
   },
   {
@@ -24,9 +24,9 @@ export default
       "Enterprise",
       "System Design"
     ],
-    "image_foreground": "images/dch_fg.png",
-    "image_background": "images/Docu_thumb.png",
-    "href": "/work/tessell_design_system"
+    "image_foreground": "images/documentation.png",
+    // "image_background": "images/Docu_thumb.png",
+    "href": "https://escherds.framer.website/escher-full"
   },
   {
     "id": 3,
@@ -38,8 +38,8 @@ export default
       "Cloud Migration",
       "Enterprise"
     ],
-    "image_foreground": "images/migration_fg.png",
-    "image_background": "images/Trust_thumb.png",
+    "image_foreground": "images/trust.png",
+    // "image_background": "images/Trust_thumb.png",
     "href": "https://pitch.com/public/296f9623-7f00-4f1b-aadf-edd2b43a28c4/4affbe50-6729-413a-9641-cc4d812cff47"
   },
   {
@@ -52,8 +52,8 @@ export default
       "Cloud Migration",
       "D2C"
     ],
-    "image_foreground": "images/campus_fg.png",
-    "image_background": "images/OneStop_thumb.png",
-    "href": "/work/tessell_design_system"
+    "image_foreground": "images/onestop.png",
+    // "image_background": "images/OneStop_thumb.png",
+    "href": "https://pitch.com/public/36545167-2be0-4363-af09-fc9c8909a4d3"
   }
 ]

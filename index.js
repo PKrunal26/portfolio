@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const beyondWorkContainer = document.getElementById("beyond-work-content");
     beyond.forEach((item) => {
         beyondWorkContainer.innerHTML += `
-      <div class="beyond-item">
+      <div class="beyond-item" onclick="window.open('${item.href}','_blank');">
         <img class="beyond-item-image" src="${item.image}" alt="logo" />
         <div class="work-item-title">${item.title}</div>
         <div class="work-item-desc">${item.description}</div>

@@ -4,29 +4,17 @@ export default
     "id": 1,
     "title": "Enhancing Trumio using AI",
     "description": "Streamlining design and development processes resulting in significantly boosted product consistency & employee productivity",
-    "tags": ["Artificial Intelligence", "Governance"],
-    "image": "images/dch_bg.png",
+    "tags": ["Silver Medal","Artificial Intelligence", "Consulting","Developed"],
+    "image": "images/trumio.png",
+    "href": "www.google.com"
   },
   {
     "id": 2,
-    "title": "Enhancing Trumio using AI",
+    "title": "Creating an AI fashion recommendation engine",
     "description": "Streamlining design and development processes resulting in significantly boosted product consistency & employee productivity",
-    "tags": ["Artificial Intelligence", "Governance"],
-    "image": "images/dch_bg.png",
-  },
-  {
-    "id": 3,
-    "title": "Enhancing Trumio using AI",
-    "description": "Streamlining design and development processes resulting in significantly boosted product consistency & employee productivity",
-    "tags": ["Artificial Intelligence", "Governance"],
-    "image": "images/dch_bg.png",
-  },
-  {
-    "id": 4,
-    "title": "Enhancing Trumio using AI",
-    "description": "Streamlining design and development processes resulting in significantly boosted product consistency & employee productivity",
-    "tags": ["Artificial Intelligence", "Governance"],
-    "image": "images/dch_bg.png",
+    "tags": ["Machine Learning","Finalists","Developed","2 day sprint"],
+    "image": "images/edna.png",
+    "href": "https://pitch.com/public/1107c53d-734b-4917-953b-7b018b1b6fb1"
   }
 
 ]

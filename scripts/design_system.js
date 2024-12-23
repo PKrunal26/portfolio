@@ -63,12 +63,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // Set Next Project
     const nextProject = work.find((project) => project.id === designSystem.next_project_id);
     const nextProjectContainer = document.getElementById('next-project-container');
+    nextProjectContainer.onclick = () => {
+        window.open(nextProject.href, '_blank');
+    }
     if (nextProject) {
         nextProjectContainer.innerHTML = `
             <div class="next-project-left">
-                <img class="work-item-right-image" src="${nextProject.image_background}" alt="Next Project Image"/>
+                <img class="work-item-right-image" src="${nextProject.image_foreground}" alt="Next Project Image"/>
             </div>
-<!--            <img class="next-project-image" src="${nextProject.image_background}" alt="Next Project Image" />-->
             <div class="next-project-right">
                 <div class="work-item-logo">
                     <img class="work-item-logo-image" src="${nextProject.logo}" alt="Next Project Logo" />
