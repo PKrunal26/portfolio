@@ -40,7 +40,7 @@ export default
     ],
     "image_foreground": "images/migration_fg.png",
     "image_background": "images/Trust_thumb.png",
-    "href": "/work/tessell_design_system"
+    "href": "https://pitch.com/public/296f9623-7f00-4f1b-aadf-edd2b43a28c4/4affbe50-6729-413a-9641-cc4d812cff47"
   },
   {
     "id": 4,

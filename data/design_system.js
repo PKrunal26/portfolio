@@ -119,7 +119,3 @@ export default
     ],
     next_project_id: 2
 }
-
-// https://www.figma.com/design/iGSfi021hVrbofHQfA3dHT/Portfolio?node-id=2144-30527&t=tviid6UjdHTAPhQq-4
-// https://www.figma.com/design/iGSfi021hVrbofHQfA3dHT/Portfolio?node-id=2145-5578&t=B8oq0tR9d5ujH0S1-4
-// https://www.figma.com/design/iGSfi021hVrbofHQfA3dHT/Portfolio?node-id=2145-5542&t=B8oq0tR9d5ujH0S1-4

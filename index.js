@@ -1,46 +1,3 @@
-//import work.js, beyond.js and about.js
-// import work from './data/work.js';
-// import beyond from './data/beyond.js';
-// import about from './data/about.js';
-
-// let work_container =
-//     document.getElementsByClassName("shipped-work-content")[0];
-//
-// // console.log(work);
-// let work_item = work_container.getElementsByClassName("work-item")[0];
-// //remove the work item from the work container
-// work_container.removeChild(work_item);
-//
-// for (const index in work) {
-//     const work_data_item = work[index];
-//     // console.log(work_data_item);
-//     let new_work_item = work_item.cloneNode(true);
-//     // console.log(new_work_item);
-//     new_work_item.getElementsByClassName("work-item-title")[0].innerText = work_data_item.title;
-//     new_work_item.getElementsByClassName("work-item-desc")[0].innerText = work_data_item.description;
-//     new_work_item.getElementsByClassName("work-item-subtitle")[0].innerText = work_data_item.subtitle;
-//     new_work_item.getElementsByClassName("work-item-logo-image")[0].src = work_data_item.logo;
-//     new_work_item.getElementsByClassName("work-item-right")[0].style.backgroundImage = `url(${work_data_item.image_background})`;
-//     // new_work_item.getElementsByClassName("work-item-right-image")[0].src = work_data_item.image_foreground;
-//     work_container.appendChild(new_work_item);
-// }
-//
-// let beyond_container =
-//     document.getElementsByClassName("beyond-work-content")[0];
-//
-// let beyond_item = beyond_container.getElementsByClassName("beyond-item")[0];
-// beyond_container.removeChild(beyond_item);
-//
-// for (const index in beyond) {
-//     const beyond_data_item = beyond[index];
-//     let new_beyond_item = beyond_item.cloneNode(true);
-//     new_beyond_item.getElementsByClassName("work-item-title")[0].innerText = beyond_data_item.title;
-//     new_beyond_item.getElementsByClassName("work-item-desc")[0].innerText = beyond_data_item.description;
-//     new_beyond_item.getElementsByClassName("beyond-item-image")[0].src = beyond_data_item.image;
-//     beyond_container.appendChild(new_beyond_item);
-// }
-//
-
 import work from './data/work.js';
 import beyond from './data/beyond.js';
 import about from './data/about.js';
@@ -104,7 +61,3 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
     });
 });
-
-
-
-// https://www.figma.com/design/iGSfi021hVrbofHQfA3dHT/Portfolio?node-id=2145-5542&t=N7mR6gTUYb5G27QP-4
