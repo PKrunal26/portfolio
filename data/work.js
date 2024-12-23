@@ -12,7 +12,7 @@ export default
     ],
     "image_foreground": "images/Design_Sys_thumb.png",
     "image_background": "images/Design_Sys_thumb.png",
-    "href": "/portfolio/design_system.html"
+    "href": "/design_system.html"
   },
   {
     "id": 2,
