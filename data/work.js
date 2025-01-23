@@ -19,7 +19,7 @@ export default
     "logo": "images/tessell_logo.svg",
     "subtitle": "Tessell | 2024",
     "title": "Documentation and Contextual help",
-    "description": "Streamlining design and development processes resulting in significantly boosted product consistency & employee productivity",
+    "description": "Helping users through complex flow via contextual help and creating a homebase for Tessell Documentation.",
     "tags": [
       "Enterprise",
       "System Design"
@@ -33,7 +33,7 @@ export default
     "logo": "images/atlassian_logo.svg",
     "subtitle": "Atlassian | 2023",
     "title": "Building Trust in Migration Process",
-    "description": "Streamlining design and development processes resulting in significantly boosted product consistency & employee productivity",
+    "description": "Identifying potential areas in the migration tooling which reduced customer trust and created strategies to mitigate the same.",
     "tags": [
       "Cloud Migration",
       "Enterprise"
@@ -47,7 +47,7 @@ export default
     "logo": "images/swc_logo.svg",
     "subtitle": "SWC | 2022",
     "title": "Transforming Campus Life",
-    "description": "Streamlining design and development processes resulting in significantly boosted product consistency & employee productivity",
+    "description": "Creating a single source of information and facilities for people in campus. Making an impact in the campus lives of 10k+ students.",
     "tags": [
       "Cloud Migration",
       "D2C"
