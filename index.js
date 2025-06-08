@@ -1,7 +1,8 @@
 import work from './data/work.js';
-import beyond from './data/beyond.js';
-import about from './data/about.js';
-import testimonials from "./data/testimonials.js";
+// Commented out unused imports
+// import beyond from './data/beyond.js';
+// import about from './data/about.js';
+// import testimonials from "./data/testimonials.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     // Populate Shipped Work
@@ -27,7 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
     });
 
-    // Populate Beyond Work
+    // Commented out Beyond Work population
+    /*
     const beyondWorkContainer = document.getElementById("beyond-work-content");
     beyond.forEach((item) => {
         beyondWorkContainer.innerHTML += `
@@ -41,8 +43,10 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     `;
     });
+    */
 
-    // Populate Testimonials
+    // Commented out Testimonials population
+    /*
     const testimonialsContainer = document.getElementById("testimonials-content");
     testimonials.forEach((testimonial) => {
         testimonialsContainer.innerHTML += `
@@ -60,4 +64,5 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     `;
     });
+    */
 });
