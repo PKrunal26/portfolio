@@ -268,8 +268,92 @@ a {
     line-height: 150%; /* 1.5rem */
 }
 
-.about-me{
+.about-me {
     margin-bottom: 7.5rem;
+}
+
+.about-me-content {
+    display: flex;
+    gap: 7.5rem;
+    margin-top: 3rem;
+    justify-content: space-between;
+}
+
+.about-me-left {
+    min-width: 264px;
+}
+
+.about-me-left-image-wrapper {
+    border-radius: 16px;
+    overflow: hidden;
+    width: 264px;
+    height: 443px;
+    background: #eee;
+}
+
+.about-me-left-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-me-right {
+    /* flex: 0.5; */
+    /* max-width: 50rem; */
+}
+
+.about-me-greeting {
+    font-family: 'Newsreader', serif;
+    font-size: 2rem;
+    color: #191d26;
+    margin-bottom: 1rem;
+}
+
+.about-me-bio {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 1rem;
+    color: #616775;
+    margin-bottom: 4rem;
+}
+
+.about-dropdown-section {
+    margin-bottom: 1.5rem;
+}
+
+.about-dropdown-title {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.about-dropdown-title-text {
+    font-family: 'Newsreader', serif;
+    font-size: 1.5rem;
+    color: #191d26;
+    flex: 1;
+}
+
+.about-dropdown-arrow {
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.about-dropdown-desc {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 1rem;
+    color: #616775;
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, margin-top 0.3s ease;
+    margin-top: 0;
+}
+
+.about-dropdown-section.open .about-dropdown-desc {
+    max-height: 500px;
+    margin-top: 0.5rem;
 }
 
 .footer-content{
@@ -326,6 +410,10 @@ a:hover {
     .work-item-left {
         margin-right: 0;
         min-width: 0;
+    }
+
+    .about-me-content {
+        gap: 3rem;
     }
 
 }
@@ -418,6 +506,17 @@ a:hover {
     .footer-content-right-menu {
         /*flex-direction: column;*/
         /*gap: 0.5rem;*/
+    }
+
+    .about-me-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .about-me-left, .about-me-left-image-wrapper {
+        display: none;
+    }
+    .about-me-left-image-wrapper {
+        height: 300px;
     }
 }
 
