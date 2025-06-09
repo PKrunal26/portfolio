@@ -161,6 +161,7 @@ a {
 .work-item-right {
     display: flex;
     align-items: center;
+    overflow: hidden;
     /*background-image: url("/images/dch_bg.png");*/
     /*background-size: contain;*/
     /*background-repeat: no-repeat;*/
@@ -171,6 +172,11 @@ a {
     height: auto;
     width: 100%;
     display: block;
+    transition: transform 0.3s ease;
+}
+
+.work-item:hover .work-item-right-image {
+    transform: scale(1.05);
 }
 
 .work-item-tags {
